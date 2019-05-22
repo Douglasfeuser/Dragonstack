@@ -19,7 +19,7 @@ setTimeout(() => {
 }, 2200);
 
 setTimeout(() => {
-    const acnologia = new Dragon({ nickname: 'Acnologia'});
+    const acnologia = new Dragon({ nickname: 'Acnologia'}, );
     console.log('Drag 4', acnologia);
 }, 2200);
 
