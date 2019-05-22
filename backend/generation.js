@@ -5,7 +5,7 @@ const RefreshRate = REFRESH_RATE * SECONDS;
 
 class Genenration {
     constructor() {
-        this.expiration = calculateExpiration();
+        this.expiration = this.calculateExpiration();
     }
 
     calculateExpiration() {

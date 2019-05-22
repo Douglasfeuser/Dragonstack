@@ -1,25 +1,9 @@
-const Dragon = require('./dragon.js');
+const Generation = require('./generation');
+const generation = new Generation();
 
-const fooey = new Dragon ({
-    birthdate: new Date(),
-    nickname: 'Fooey'
-});
+console.log('generation: ', generation);
 
-const balooo = new Dragon ({
-    birthdate: new Date(),
-    nickname: 'Baloo'
-});
+const acnologia = generation.newDragon();
 
-console.log('Drag 1', fooey);
-console.log('Drag 2', balooo);
-
-setTimeout(() => {
-    const mimaar = new Dragon ({});
-    console.log('Drag 3', mimaar);
-}, 2200);
-
-setTimeout(() => {
-    const acnologia = new Dragon({ nickname: 'Acnologia'}, );
-    console.log('Drag 4', acnologia);
-}, 2200);
+console.log('acnologia: ', acnologia);
 
